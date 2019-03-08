@@ -112,7 +112,9 @@ h1 {
         }
     .content {
         flex-basis: 50%;
+        height: 100%;
         max-width: 50%;
         padding: 60px 60px;
+        overflow-y: scroll;
     }
 }

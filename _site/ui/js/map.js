@@ -56,7 +56,6 @@ request.onload = function() {
                     fillColor: color(d.properties.real_democracy_score),
                     fillOpacity: .9
                 }).addTo(map);
-            // marker = L.marker([d.latitude, d.longitude]);
             markerHtml = '<p><b>' + d.properties.town + '</b></p>';
             markerHtml += '<p><b>Real Democracy Score:</b> ' + d.properties.real_democracy_score + '</p>';
             markerHtml += '<p>';
@@ -67,7 +66,6 @@ request.onload = function() {
             markerHtml += '2017 Population: ' + d.properties.population_2017 + '<br />';
             markerHtml += 'Length of Meeting: ' + d.properties.length_of_meeting + '</p>';
             circle.bindPopup(markerHtml);
-            // marker.addTo(map);
         });
     } else {
         // We reached our target server, but it returned an error
