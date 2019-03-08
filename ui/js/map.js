@@ -65,7 +65,7 @@ request.onload = function() {
             markerHtml += 'Peak Total Partipants: ' + d.properties.total_participants + '<br />';
             markerHtml += 'Participation Rate: ' + d.properties.participation_rate + '<br />';
             markerHtml += '2017 Population: ' + d.properties.population_2017 + '<br />';
-            markerHtml += 'Length of Meeting: ' + d.properties.slength_of_meeting + '</p>';
+            markerHtml += 'Length of Meeting: ' + d.properties.length_of_meeting + '</p>';
             circle.bindPopup(markerHtml);
             // marker.addTo(map);
         });
