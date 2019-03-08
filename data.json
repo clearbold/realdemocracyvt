@@ -10,8 +10,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    {{ town.latitude }},
                     {{ town.longitude }},
+                    {{ town.latitude }},
                     0
                 ]
             },

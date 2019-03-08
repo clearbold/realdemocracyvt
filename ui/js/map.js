@@ -32,7 +32,7 @@ function radius(towns, population) {
                 maxPop = d.properties.population_2017;
         }
     });
-    // map.setView([smallestTown.geometry.coordinates[0], smallestTown.geometry.coordinates[1]], 9);
+    // map.setView([smallestTown.geometry.coordinates[1], smallestTown.geometry.coordinates[0]], 9);
     range = maxPop - minPop;
     multiplier = population / maxPop;
     calcRadius = smallest * multiplier * 9;
@@ -49,7 +49,7 @@ request.onload = function() {
         // Success!
         var data = JSON.parse(request.responseText);
         data.features.forEach(function(d, i) {
-            circle = L.circleMarker([d.geometry.coordinates[0], d.geometry.coordinates[1]],
+            circle = L.circleMarker([d.geometry.coordinates[1], d.geometry.coordinates[0]],
                 {
                     radius: radius(data.features, d.properties.population_2017),
                     stroke: false,
