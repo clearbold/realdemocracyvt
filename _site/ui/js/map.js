@@ -1,4 +1,4 @@
-var map = L.map('map').setView([44,-72.3], 9);
+var map = L.map('map').setView([44.3386209,-72.7547131], 9);
 var gl = L.mapboxGL({
     accessToken: 'pk.eyJ1IjoiY2xlYXJib2xkIiwiYSI6IkI0ZWdMTW8ifQ.djN6eK5OWq7kAiEEKFhjFw',
     style: 'mapbox://styles/mapbox/outdoors-v9',
@@ -32,7 +32,7 @@ function radius(towns, population) {
                 maxPop = d.properties.population_2017;
         }
     });
-    map.setView([smallestTown.geometry.coordinates[0], smallestTown.geometry.coordinates[1]], 9);
+    // map.setView([smallestTown.geometry.coordinates[0], smallestTown.geometry.coordinates[1]], 9);
     range = maxPop - minPop;
     multiplier = population / maxPop;
     calcRadius = smallest * multiplier * 9;
