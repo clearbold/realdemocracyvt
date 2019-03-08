@@ -56,8 +56,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    43.8711966,
-                    -73.1381661,
+                    43.8712585,
+                    -73.1380803,
                     0
                 ]
             },
@@ -70,8 +70,8 @@
                 "real_democracy_score": "50.46",
                 "population_2017": "1166",
                 "length_of_meeting": "1.5 Hours",
-                "latitude": "43.8711966",
-                "longitude": "-73.1381661"
+                "latitude": "43.8712585",
+                "longitude": "-73.1380803"
             }
         },
 
@@ -344,8 +344,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    44.6431641883588,
-                    -71.9790864907878,
+                    44.6008188,
+                    -73.073989,
                     0
                 ]
             },
@@ -358,8 +358,8 @@
                 "real_democracy_score": "7.08",
                 "population_2017": "3019",
                 "length_of_meeting": "20 Minutes",
-                "latitude": "44.6431641883588",
-                "longitude": "-71.9790864907878"
+                "latitude": "44.6008188",
+                "longitude": "-73.073989"
             }
         },
 
