@@ -368,8 +368,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    44.5728791541957,
-                    -72.454786504724,
+                    44.4267736,
+                    -73.1568286,
                     0
                 ]
             },
@@ -382,8 +382,8 @@
                 "real_democracy_score": "6.67",
                 "population_2017": "9341",
                 "length_of_meeting": "30 Minutes",
-                "latitude": "44.5728791541957",
-                "longitude": "-72.454786504724"
+                "latitude": "44.4267736",
+                "longitude": "-73.1568286"
             }
         }
 
