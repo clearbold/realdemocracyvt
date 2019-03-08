@@ -1,0 +1,23 @@
+# Site settings
+title: "Real Democracy in Vermont"
+email: mjr@clearbold.com
+description: ""
+baseurl: ""
+url: "https://clearbold.com/realdemocracyvt"
+twitter_username:
+github_username:  clearbold
+
+# Where things are
+destination:      ./_site
+# source:           ./_source
+
+
+# Handling Reading
+exclude:          ["templates", "Gemfile", "Gemfile.lock", "README.md", ".gitignore"]
+
+# Conversion
+markdown: kramdown
+
+# Compensating for gh-pages project site
+baseurl: /realdemocracyvt
+# https://github.com/jekyll/jekyll/issues/332

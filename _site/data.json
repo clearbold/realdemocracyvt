@@ -1,0 +1,391 @@
+{ "type": "FeatureCollection",
+    "features":
+    [
+
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.7585631829631,
+                    -72.6770169965593,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Belvidere",
+                "peak_attendance": "31",
+                "attendance_rate": "13.48%",
+                "total_participants": "25",
+                "participation_rate": "80.65%",
+                "real_democracy_score": "94.12",
+                "population_2017": "412",
+                "length_of_meeting": "4 Hours",
+                "latitude": "44.7585631829631",
+                "longitude": "-72.6770169965593"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.213000532925,
+                    -72.8749350249728,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Fayston",
+                "peak_attendance": "85",
+                "attendance_rate": "6.85%",
+                "total_participants": "41",
+                "participation_rate": "48.24%",
+                "real_democracy_score": "55.09",
+                "population_2017": "1298",
+                "length_of_meeting": "3 Hours",
+                "latitude": "44.213000532925",
+                "longitude": "-72.8749350249728"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.8711966,
+                    -73.1381661,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Leicester",
+                "peak_attendance": "59",
+                "attendance_rate": "8.08%",
+                "total_participants": "25",
+                "participation_rate": "42.37%",
+                "real_democracy_score": "50.46",
+                "population_2017": "1166",
+                "length_of_meeting": "1.5 Hours",
+                "latitude": "43.8711966",
+                "longitude": "-73.1381661"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3089472251119,
+                    -73.2359433237568,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Charlotte",
+                "peak_attendance": "119",
+                "attendance_rate": "3.67%",
+                "total_participants": "48",
+                "participation_rate": "40.34%",
+                "real_democracy_score": "44.01",
+                "population_2017": "3818",
+                "length_of_meeting": "3.33 Hours",
+                "latitude": "44.3089472251119",
+                "longitude": "-73.2359433237568"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.2276232583448,
+                    -73.1323206708945,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Monkton",
+                "peak_attendance": "107",
+                "attendance_rate": "6.52%",
+                "total_participants": "38",
+                "participation_rate": "35.51%",
+                "real_democracy_score": "42.03",
+                "population_2017": "1951",
+                "length_of_meeting": "3.25 Hours",
+                "latitude": "44.2276232583448",
+                "longitude": "-73.1323206708945"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.504890307005,
+                    -72.987913070801,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Jericho",
+                "peak_attendance": "142",
+                "attendance_rate": "3.31%",
+                "total_participants": "49",
+                "participation_rate": "34.51%",
+                "real_democracy_score": "37.82",
+                "population_2017": "5055",
+                "length_of_meeting": "4.2 Hours",
+                "latitude": "44.504890307005",
+                "longitude": "-72.987913070801"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.542337450008,
+                    -72.4000697711762,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Hartland",
+                "peak_attendance": "145",
+                "attendance_rate": "5.33%",
+                "total_participants": "46",
+                "participation_rate": "31.72%",
+                "real_democracy_score": "37.05",
+                "population_2017": "3422",
+                "length_of_meeting": "-/-",
+                "latitude": "43.542337450008",
+                "longitude": "-72.4000697711762"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3299060142244,
+                    -73.1062444929395,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Hinesburg",
+                "peak_attendance": "153",
+                "attendance_rate": "3.75%",
+                "total_participants": "48",
+                "participation_rate": "31.37%",
+                "real_democracy_score": "35.12",
+                "population_2017": "4509",
+                "length_of_meeting": "3 Hours",
+                "latitude": "44.3299060142244",
+                "longitude": "-73.1062444929395"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.4075775308353,
+                    -72.9964837787652,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Richmond",
+                "peak_attendance": "143",
+                "attendance_rate": "4.34%",
+                "total_participants": "39",
+                "participation_rate": "27.27%",
+                "real_democracy_score": "31.61",
+                "population_2017": "4128",
+                "length_of_meeting": "2.75 Hours",
+                "latitude": "44.4075775308353",
+                "longitude": "-72.9964837787652"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.8078956807456,
+                    -72.9321463344177,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Fairfield",
+                "peak_attendance": "93",
+                "attendance_rate": "6.67%",
+                "total_participants": "21",
+                "participation_rate": "22.58%",
+                "real_democracy_score": "29.25",
+                "population_2017": "1899",
+                "length_of_meeting": "1.5 Hours",
+                "latitude": "44.8078956807456",
+                "longitude": "-72.9321463344177"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.5382535998877,
+                    -72.8861054030741,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Underhill",
+                "peak_attendance": "146",
+                "attendance_rate": "5.75%",
+                "total_participants": "30",
+                "participation_rate": "20.55%",
+                "real_democracy_score": "26.29",
+                "population_2017": "3053",
+                "length_of_meeting": "2.5 Hours",
+                "latitude": "44.5382535998877",
+                "longitude": "-72.8861054030741"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.7282363043425,
+                    -73.1276332488484,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Georgia",
+                "peak_attendance": "115",
+                "attendance_rate": "3.07%",
+                "total_participants": "25",
+                "participation_rate": "21.74%",
+                "real_democracy_score": "24.81",
+                "population_2017": "4691",
+                "length_of_meeting": "1.53 Hours",
+                "latitude": "44.7282363043425",
+                "longitude": "-73.1276332488484"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.6998108302101,
+                    -73.0074858118509,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Fairfax",
+                "peak_attendance": "69",
+                "attendance_rate": "1.76%",
+                "total_participants": "15",
+                "participation_rate": "21.74%",
+                "real_democracy_score": "23.5",
+                "population_2017": "4574",
+                "length_of_meeting": "2.1 Hours",
+                "latitude": "44.6998108302101",
+                "longitude": "-73.0074858118509"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.9273049739245,
+                    -72.6727397648856,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Randolph",
+                "peak_attendance": "123",
+                "attendance_rate": "3.71%",
+                "total_participants": "21",
+                "participation_rate": "17.07%",
+                "real_democracy_score": "20.78",
+                "population_2017": "4715",
+                "length_of_meeting": "3 Hours",
+                "latitude": "43.9273049739245",
+                "longitude": "-72.6727397648856"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.6431641883588,
+                    -71.9790864907878,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Westford",
+                "peak_attendance": "47",
+                "attendance_rate": "2.82%",
+                "total_participants": "2",
+                "participation_rate": "4.26%",
+                "real_democracy_score": "7.08",
+                "population_2017": "3019",
+                "length_of_meeting": "20 Minutes",
+                "latitude": "44.6431641883588",
+                "longitude": "-71.9790864907878"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.5728791541957,
+                    -72.454786504724,
+                    0
+                ]
+            },
+            "properties": {
+                "town": "Williston",
+                "peak_attendance": "87",
+                "attendance_rate": "0.92%",
+                "total_participants": "5",
+                "participation_rate": "5.75%",
+                "real_democracy_score": "6.67",
+                "population_2017": "9341",
+                "length_of_meeting": "30 Minutes",
+                "latitude": "44.5728791541957",
+                "longitude": "-72.454786504724"
+            }
+        }
+
+    ]
+}

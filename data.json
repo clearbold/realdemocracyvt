@@ -1,0 +1,33 @@
+---
+---
+{ "type": "FeatureCollection",
+    "features":
+    [
+{% assign towns = site.data.uvm %}
+{% for town in towns %}
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    {{ town.latitude }},
+                    {{ town.longitude }},
+                    0
+                ]
+            },
+            "properties": {
+                "town": "{{ town.town }}",
+                "peak_attendance": "{{ town.peak_attendance }}",
+                "attendance_rate": "{{ town.attendance_rate }}",
+                "total_participants": "{{ town.total_participants }}",
+                "participation_rate": "{{ town.participation_rate }}",
+                "real_democracy_score": "{{ town.real_democracy_score }}",
+                "population_2017": "{{ town.population_2017 }}",
+                "length_of_meeting": "{{ town.length_of_meeting }}",
+                "latitude": "{{ town.latitude }}",
+                "longitude": "{{ town.longitude }}"
+            }
+        }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+    ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Web &amp; email design and development firm, specializing in website redesigns, custom content management solutions, web applications, email campaigns, and data-driven projects.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Democracy in VT. A data visualization project by Clearbold.</title>
+    <!--[if gte IE 11]><!-->
+    <link rel="stylesheet" href="https://clearbold.com/ui/css/styles.css">
+    <!-- <![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/ui/img/icon-192x192.png" sizes="192x192" />
+    <link rel="shortcut icon" type="image/png" href="/ui/img/icon-64x64.png" sizes="64x64" />
+    <link rel="shortcut icon" type="image/png" href="/ui/img/icon-32x32.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="/ui/img/icon-192x192.png" />
+    <meta property="og:site_name" content="Clearbold" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.clearbold.com/realdemocracyvt/" />
+    <meta property="og:title" content="Clearbold" />
+    <meta property="og:description" content="A data visualization project by Clearbold." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@clearbold" />
+    <meta name="twitter:creator" content="@clearbold" />
+    <meta name="twitter:creator:id" content="125980885" />
+    <meta name="twitter:url" content="https://www.clearbold.com/realdemocracyvt/" />
+    <meta name="twitter:title" content="Clearbold" />
+    <meta name="twitter:description" content="A data visualization project by Clearbold." />
+
+    <link rel="dns-prefetch" href="https://basemaps.arcgis.com" />
+    <link rel="stylesheet" href="./leaflet/leaflet.css"/>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./ui/css/styles.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="map-wrapper"><div id="map"></div></div>
+        <div class="content">
+            <h1><span>Real Democracy in VT</span> Town Meeting Day 2019</h1>
+            <div class="scale scale-score">
+                <div>Real Democracy Score &rarr;</div>
+                <div class="score"></div>
+            </div>
+            <div class="scale scale-population">
+                <div><span class="small">&#160;</span></div>
+                <div>Population &rarr;</div>
+                <div><span class="big">&#160;</span></div>
+            </div>
+            <div class="summary">
+                <blockquote>
+                    <p>Using this data and the formula from Dr. Bryan&rsquo;s work, we calculated the &ldquo;Real Democracy&rdquo; score for each town. This score combines attendance and participation rates to mark how democratic the meeting was. Dr. Bryan showed in his book <a href="http://press.uchicago.edu/ucp/books/book/chicago/R/bo3641466.html">Real Democracy</a> that there are many factors that contribute to this score including the size of the town, whether the meeting was held in the morning or evening, and the gender ratio of participants. But by far the largest contributing factor is the issues that are up for discussion. When the articles on the warning are just the routine elections and budget items, people stay home, but when an issue that people care about (renovation on the town hall, or the purchase of a piece of property) come up, more people will show up to the town meeting, increasing their Real Democracy score.</p>
+                </blockquote>
+                <p>Source: <a href="https://www.uvm.edu/cas/vermontresearch/town-meeting-project-2019-town-data-overview">https://www.uvm.edu/cas/vermontresearch/town-meeting-project-2019-town-data-overview</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./ui/js/tiny-color.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <script src="./leaflet/leaflet.js"></script>
+    <script src="./leaflet/leaflet-mapbox-gl.js"></script>
+    <script src="./ui/js/map.js"></script>
+</body>
+</html>
